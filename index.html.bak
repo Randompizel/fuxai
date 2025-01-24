@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rembo AI</title>
+  <link rel="stylesheet" href="index.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700;8..144,800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/x-icon" href="main-logo.png">
+</head>
+<body>
+ 
+    <header> 
+        <div class="header-left">
+          <a href="/">
+            <img src="main-logo.png" alt="" class="header-logo-img">  
+            <span class="header-logo-txt">FUX AI</span>
+          </a> 
+        </div> 
+
+        <div class="header-right">
+          <a href="https://x.com/rembo_ai" target="_blank">
+            <svg width="23" height="23" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.65431 1.69971L8.68147 6.10044L12.4703 1.69971H13.9699L9.35007 7.07111L14.3167 14.2997H10.339L7.1386 9.64577L3.13649 14.2997H1.63672L6.47661 8.67497L1.68325 1.69971H5.65431ZM8.0124 8.91304H8.00647L11.0069 13.2064H12.2269L8.44987 7.80157L7.97653 7.12157L4.97981 2.83304H3.76011L7.3568 7.97117L8.0124 8.91304Z" fill="#979797"></path>
+            </svg>
+          </a>
+          <a href="/airdrop" class=" airdrop-btn">Airdrop</a>
+        </div>
+    </header> 
+
+    <section>
+      <div class="first-section">
+        <div class="main-left">
+          <h1 class="main-left-txt">The First Personalized <br> DeFAI Agent Platform  <br> On Solana</h1>
+          <p class="main-left-desc">Empowering Decisions with On-Chain Intelligence</p>
+        </div>
+        <img src="main-logo.png" alt="" class="main-right-img"> 
+      </div>
+    </section>
+
+    <section>
+      <h2 class="main-left-txt-title">AI Agents Built for Web3 Automation</h2>
+      <p class="main-left-desc small-desc">Effortlessly automate complex tasks with AI agents that streamline Web3 operations</p>
+      <div class="main-containers-wrap">
+        <div class="main-container">
+          <span class="main-container-title">Effortless One-Click Setup</span>
+          <p class="main-desc-container ">Launch your AI Agent instantly- no coding required - and personalize it to follow each user's' trading strategies. Agents have memory: Chat, Summarize, Save!</p>
+        </div>
+
+        <div class="main-container">
+          <span class="main-container-title">Master Trading with DeFAI</span>
+          <p class="main-desc-container ">Integrate onchain activities and leverage AI-driven DeFi for the ultimate trading experience.</p>
+        </div>
+
+        <div class="main-container">
+          <span class="main-container-title">Insightful On-Chain Data</span>
+          <p class="main-desc-container ">Buy and sell tokens and NFTs securely, with lightning speed, while enjoying immersive digital experiences.</p>
+        </div>
+
+        <div class="main-container">
+          <span class="main-container-title">Smart AI Agents for Facile Automation</span>
+          <p class="main-desc-container ">Transform your workflows & logics with advanced AI agents and tailored automations built to tackle complex tasks.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="main-left-txt-title">AI-Infused Solana</h2>
+      <p class="main-left-desc small-desc">Seamless integration with top AI models for effortless, intelligent blockchain experiences.      </p>
+      <div class="main-containers-infused">
+        <div class=" container-d feat-sol bg-img">
+          <span class="container-feat-sol-title">Fully integrated with Solana</span>
+          <p class="container-feat-sol-desc">Built for Solana with effortless integration into top AI models.</span>
+        </div>
+
+        <div class="container-d feat-world-sol bg-img container-heigt">
+          <span class="container-feat-sol-title">Smooth Transactions</span>
+          <p class="container-feat-sol-desc">Enjoy ultra-efficient, instant, and frictionless transactions. Fully integrated with Solana for seamless trading, token swaps (especially memecoin), NFT transactions, and blockchain tracking.</span>
+        </div>
+
+        <div class="container-d bg-img container-heigt">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="13" fill="url(#paint0_linear_677_3426)" fill-opacity="0.24"></circle>
+            <path d="M6 29.25C10.25 29.25 10.25 24 10.25 24C10.25 24 10.25 29.25 14.5 29.25C10.25 29.25 10.25 34.5 10.25 34.5C10.25 34.5 10.25 29.25 6 29.25Z" fill="white"></path>
+            <path d="M2 24.25C4.25 24.25 4.25 22 4.25 22C4.25 22 4.25 24.25 6.5 24.25C4.25 24.25 4.25 26.5 4.25 26.5C4.25 26.5 4.25 24.25 2 24.25Z" fill="white"></path>
+            <path d="M4 32.5H4.01M14.5 34.5H14.51M10.25 24C10.25 24 10.25 29.25 6 29.25C10.25 29.25 10.25 34.5 10.25 34.5C10.25 34.5 10.25 29.25 14.5 29.25C10.25 29.25 10.25 24 10.25 24ZM4.25 22C4.25 22 4.25 24.25 2 24.25C4.25 24.25 4.25 26.5 4.25 26.5C4.25 26.5 4.25 24.25 6.5 24.25C4.25 24.25 4.25 22 4.25 22Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M19.6602 33C26.8399 33 32.6602 27.1797 32.6602 20C32.6602 12.8203 26.8399 7 19.6602 7C12.4805 7 6.66016 12.8203 6.66016 20" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+            <rect x="14" y="14" width="2.30161" height="5.41556" rx="1.15081" fill="url(#paint1_linear_677_3426)"></rect>
+            <rect x="21.8516" y="14.0001" width="2.30161" height="5.41556" rx="1.15081" fill="url(#paint2_linear_677_3426)"></rect>
+            <defs>
+            <linearGradient id="paint0_linear_677_3426" x1="20" y1="7" x2="20" y2="33" gradientUnits="userSpaceOnUse">
+            <stop stop-color="white" stop-opacity="0"></stop>
+            <stop offset="1" stop-color="white"></stop>
+            </linearGradient>
+            <linearGradient id="paint1_linear_677_3426" x1="15.1508" y1="14" x2="15.1508" y2="19.4156" gradientUnits="userSpaceOnUse">
+            <stop stop-color="white"></stop>
+            <stop offset="1" stop-color="#DADADA"></stop>
+            </linearGradient>
+            <linearGradient id="paint2_linear_677_3426" x1="23.0024" y1="14.0001" x2="23.0024" y2="19.4157" gradientUnits="userSpaceOnUse">
+            <stop stop-color="white"></stop>
+            <stop offset="1" stop-color="#DADADA"></stop>
+            </linearGradient>
+            </defs>
+            </svg>
+          <span class="container-feat-sol-title">Cutting-edge AI agents</span>
+          <p class="container-feat-sol-desc">Built for Solana, leveraging on-chain tools, data, and top AI models like OpenAI, Claude, and Gemini for seamless automation and smart decision-making.</span>
+        </div>
+
+        <div class="container-d bg-img container-heigt">
+          <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.6602 33C27.8399 33 33.6602 27.1797 33.6602 20C33.6602 12.8203 27.8399 7 20.6602 7C13.4805 7 7.66016 12.8203 7.66016 20C7.66016 27.1797 13.4805 33 20.6602 33Z" fill="url(#paint0_linear_677_3421)" fill-opacity="0.24" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path opacity="0.4" d="M20.6602 18C21.1906 18 21.6993 18.2107 22.0744 18.5858C22.4495 18.9609 22.6602 19.4696 22.6602 20C22.6602 20.5304 22.4495 21.0391 22.0744 21.4142C21.6993 21.7893 21.1906 22 20.6602 22C20.1298 22 19.6211 21.7893 19.246 21.4142C18.8709 21.0391 18.6602 20.5304 18.6602 20C18.6602 19.4696 18.8709 18.9609 19.246 18.5858C19.6211 18.2107 20.1298 18 20.6602 18Z" fill="#030014" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M20.6602 5C21.1906 5 21.6993 5.21071 22.0744 5.58579C22.4495 5.96086 22.6602 6.46957 22.6602 7C22.6602 7.53043 22.4495 8.03914 22.0744 8.41421C21.6993 8.78929 21.1906 9 20.6602 9C20.1298 9 19.6211 8.78929 19.246 8.41421C18.8709 8.03914 18.6602 7.53043 18.6602 7C18.6602 6.46957 18.8709 5.96086 19.246 5.58579C19.6211 5.21071 20.1298 5 20.6602 5ZM20.6602 31C21.1906 31 21.6993 31.2107 22.0744 31.5858C22.4495 31.9609 22.6602 32.4696 22.6602 33C22.6602 33.5304 22.4495 34.0391 22.0744 34.4142C21.6993 34.7893 21.1906 35 20.6602 35C20.1298 35 19.6211 34.7893 19.246 34.4142C18.8709 34.0391 18.6602 33.5304 18.6602 33C18.6602 32.4696 18.8709 31.9609 19.246 31.5858C19.6211 31.2107 20.1298 31 20.6602 31ZM33.6602 18C34.1906 18 34.6993 18.2107 35.0744 18.5858C35.4495 18.9609 35.6602 19.4696 35.6602 20C35.6602 20.5304 35.4495 21.0391 35.0744 21.4142C34.6993 21.7893 34.1906 22 33.6602 22C33.1298 22 32.6211 21.7893 32.246 21.4142C31.8709 21.0391 31.6602 20.5304 31.6602 20C31.6602 19.4696 31.8709 18.9609 32.246 18.5858C32.6211 18.2107 33.1298 18 33.6602 18ZM7.66016 18C8.19059 18 8.6993 18.2107 9.07437 18.5858C9.44945 18.9609 9.66016 19.4696 9.66016 20C9.66016 20.5304 9.44945 21.0391 9.07437 21.4142C8.6993 21.7893 8.19059 22 7.66016 22C7.12973 22 6.62102 21.7893 6.24595 21.4142C5.87087 21.0391 5.66016 20.5304 5.66016 20C5.66016 19.4696 5.87087 18.9609 6.24595 18.5858C6.62102 18.2107 7.12973 18 7.66016 18Z" fill="#030014" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+            <defs>
+            <linearGradient id="paint0_linear_677_3421" x1="20.6602" y1="7" x2="20.6602" y2="33" gradientUnits="userSpaceOnUse">
+            <stop stop-color="white" stop-opacity="0"></stop>
+            <stop offset="1" stop-color="white"></stop>
+            </linearGradient>
+            </defs>
+            </svg>
+          <span class="container-feat-sol-title">Complete Ecosystem Connectivity</span>
+          <p class="container-feat-sol-desc">Easily access the full range of Solana's protocols and services. Our platform ensures seamless AI-driven collaboration for maximum synergy with the ecosystem.</span>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section>
+      <h2 class="main-left-txt-title">Partners</h2>
+      <div class="parnet-wrap">
+        <img src="meteora.png" alt="" class="parnet-img">
+        <img src="m3.png" alt="" class="parnet-img">
+        <img src="as.png" alt="" class="parnet-img">
+        <img src="llm.png" alt="" class="parnet-img">
+        <img src="or.png" alt="" class="parnet-img">
+        <img src="sp.png" alt="" class="parnet-img">
+      </div>
+    </section>
+
+    <section>
+      <h2 class="main-left-txt-title">FAQs</h2>
+
+      <div class="faq-contaier">
+        <div class="faq-container-top container-feat-sol-title">What is Rembo AI?</div>
+        <div class="faq-container-bottom">Rembo AI is a multi-platform on-chain analysis AI assistant that offers a wide range of chat to help you gain confluence and confidence in your trades and on-chain research. It simplifies complex processes, providing actionable insights and automation.</div>
+      </div>
+
+      <div class="faq-contaier">
+        <div class="faq-container-top container-feat-sol-title">How does the Rembo AI work?</div>
+        <div class="faq-container-bottom">Rembo AI's AI agents take user input and leverage tools to perform on-chain actions. Users provide simple chat, and Rembo AI's AI processes the information to deliver precise, real-time results.</div>
+      </div>
+
+      <div class="faq-contaier">
+        <div class="faq-container-top container-feat-sol-title">What types of actions can Rembo AI take?</div>
+        <div class="faq-container-bottom">Rembo AI is capable of executing a variety of on-chain actions, including:<br>
+          1. Trading tokens<br><br>
+          2. Searching for tokens:<br><br>
+          * Top Holders insight<br><br>
+          * Dev Detective<br>
+        </div>
+      </div>
+
+      <div class="faq-contaier">
+        <div class="faq-container-top container-feat-sol-title">Upcoming feature</div>
+        <div class="faq-container-bottom">Memecoin Automation — Autonomously create a memecoin on Pump.fun every time choosen KOL tweets.<br><br>
+          KOL-driven Trades — Automatically buy every memecoin a KOL tweets about.<br><br>
+          Token Trendspotting — Identify and buy trending tokens before they surge.<br><br>
+          Sentiment Analysis — Decide whether to buy or sell a token based on the sentiment of a tweet.</div>
+      </div>
+
+    </section>
+
+
+    <footer><span>© 2024 Rembo AI. All rights reserved.</span>  <a href="https://x.com/rembo_ai" target="_blank">
+      <svg width="23" height="23" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.65431 1.69971L8.68147 6.10044L12.4703 1.69971H13.9699L9.35007 7.07111L14.3167 14.2997H10.339L7.1386 9.64577L3.13649 14.2997H1.63672L6.47661 8.67497L1.68325 1.69971H5.65431ZM8.0124 8.91304H8.00647L11.0069 13.2064H12.2269L8.44987 7.80157L7.97653 7.12157L4.97981 2.83304H3.76011L7.3568 7.97117L8.0124 8.91304Z" fill="#979797"></path>
+      </svg>
+    </a></footer>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rembo AI</title>
+  <link rel="stylesheet" href="index.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700;8..144,800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/x-icon" href="main-logo.png">
+</head>
+<body>
+ 
+    <header> 
+        <div class="header-left">
+         <a href="/">
+           <img src="main-logo.png" alt="" class="header-logo-img">  
+           <span class="header-logo-txt">Rembo AI</span>
+         </a> 
+        </div> 
+
+        <div class="header-right">
+          <a href="https://x.com/rembo_ai" target="_blank">
+            <svg width="23" height="23" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.65431 1.69971L8.68147 6.10044L12.4703 1.69971H13.9699L9.35007 7.07111L14.3167 14.2997H10.339L7.1386 9.64577L3.13649 14.2997H1.63672L6.47661 8.67497L1.68325 1.69971H5.65431ZM8.0124 8.91304H8.00647L11.0069 13.2064H12.2269L8.44987 7.80157L7.97653 7.12157L4.97981 2.83304H3.76011L7.3568 7.97117L8.0124 8.91304Z" fill="#979797"></path>
+            </svg>
+          </a>
+          <a href="" class="airdrop-btn">Airdrop</a>
+        </div>
+    </header> 
+
+    <section class="airdrop-section">
+      <div class="first-section">
+
+        <div class="airdrop-main-left">
+          <h1 class="main-left-txt">AIRDROP <br> REMBO AI CYRPTOCURRENCY</h1>
+          <p class="main-left-desc">We will airdrop 2,5% of token supply among all participants.</p>
+          <p class="main-left-desc">
+            Rules:
+            <br><br>
+            1: Fill our form.
+            <br><br>
+            2: Retweet our pinned post.
+            <br><br>
+            3: Wait for results.
+            <br><br>
+            If you will win, you will be notified by email and twitter dm.   
+        </p>
+        </div>
+
+        <div class="airdrop-main-right">
+          <input type="text" placeholder="EMAIL" class="airdrop-input" id="email">
+          <input type="text" placeholder="SOL ADDRESS" class="airdrop-input" id="sol">
+          <input type="text" placeholder="TWITTER LIINK" class="airdrop-input" id="twitter">
+          <button class="apply-airdrop-btn" id="btn">Apply for airdrop</button>
+        </div>
+      </div>  
+    </section>
+
+
+    <footer><span>© 2024 Rembo AI. All rights reserved.</span>  <a href="https://x.com/rembo_ai" target="_blank">
+      <svg width="23" height="23" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.65431 1.69971L8.68147 6.10044L12.4703 1.69971H13.9699L9.35007 7.07111L14.3167 14.2997H10.339L7.1386 9.64577L3.13649 14.2997H1.63672L6.47661 8.67497L1.68325 1.69971H5.65431ZM8.0124 8.91304H8.00647L11.0069 13.2064H12.2269L8.44987 7.80157L7.97653 7.12157L4.97981 2.83304H3.76011L7.3568 7.97117L8.0124 8.91304Z" fill="#979797"></path>
+      </svg>
+    </a></footer>
+
+    <script>
+       let email_input = document.getElementById("email")
+       let sol_input = document.getElementById("sol")
+       let twitter_input = document.getElementById("twitter")
+       let button_join = document.getElementById("btn")
+
+       button_join.addEventListener("click", () => {
+        if(!/^[a-zA-Z0-9]+@(?:[a-zA-Z0-9]+\.)+[A-Za-z]+$/.test(email_input.value)) {
+            email_input.style.borderColor = "#f83c3c"
+            return alert("Your email is address invalid")
+        } else {
+           email_input.style.borderColor = "#2C2C2C"
+        }
+        if(!/(?:http:\/\/)?(?:www\.)?x\.com\/(?:(?:\w)*#!\/)?(?:pages\/)?(?:[\w\-]*\/)*([\w\-]*)/.test(twitter_input.value)) {
+            twitter_input.style.borderColor = "#f83c3c"
+            return alert("Your Twitter link is invalid")
+        } else {
+           email_input.style.borderColor = "#2C2C2C"
+        }
+
+        alert("You have been succeffully applied for airdrop from REMBO AI")
+       })
+    </script>
+</body>
+</html>
